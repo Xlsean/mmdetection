@@ -1,4 +1,4 @@
-API Documentation
+API Reference
 =================
 
 mmdet.apis
@@ -32,11 +32,6 @@ evaluation
 post_processing
 ^^^^^^^^^^^^^^^
 .. automodule:: mmdet.core.post_processing
-    :members:
-
-fp16
-^^^^^^^^^^
-.. automodule:: mmdet.core.fp16
     :members:
 
 optimizer
@@ -75,6 +70,11 @@ backbones
 .. automodule:: mmdet.models.backbones
     :members:
 
+necks
+^^^^^^^^^^^^
+.. automodule:: mmdet.models.necks
+    :members:
+
 dense_heads
 ^^^^^^^^^^^^
 .. automodule:: mmdet.models.dense_heads
@@ -88,4 +88,9 @@ roi_heads
 losses
 ^^^^^^^^^^
 .. automodule:: mmdet.models.losses
+    :members:
+
+utils
+^^^^^^^^^^
+.. automodule:: mmdet.models.utils
     :members:
